@@ -4,13 +4,15 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 6, Part 1</title>
+    <title>Week 6, Part 2</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -19,7 +21,122 @@
 
   <body>
 
-    <h1>Week 6, Part 1</h1>
+    <nav class="site-header sticky-top py-1">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="#" aria-label="Product"></a>
+    <img src="images/green.png" alt="Onda Logo" width="35" height="35">
+    <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://people.com/food/shay-mitchell-launches-a-new-line-of-sparkling-tequila-canned-cocktails-onda/">Our Story</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://drinkonda.com/collections/sparkling-tequila">Products</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://drinkonda.com/collections/sparkling-tequila">Merch</a>
+    <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+  </div>
+</nav>
+
+<div style="background-image: url(images/cover1.jpg); background-position: center; background-size: fill; background-repeat: no-repeat;" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">
+    <h1 class="display-4 font-weight-normal">Onda Sparkling Tequila</h1>
+    <p class="lead1 font-weight-normal">Summer is a state of mind best served in a can.</p>
+    <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">SHOP NOW</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">BUY ONDA</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div id="special">
+                    <p><strong>HOLD ON</strong></p>
+                  </div>
+                  <p>Please confirm you are 21+. We check IDs.</p>
+                  <img src="images/unnamed.jpg" alt="pool" width="100%" height="100%">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">ENTER</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Lime</h2>
+      <p class="lead2">Lime &#38; Tequila. Name a more iconic duo.</p>
+    </div>
+    <div class="mx-auto" style="width: 80%; height: 400px; border-radius: 21px 21px 0 0;">
+      <img style="height:auto;width:100%" src="/images/lime.png", class="mx-auto w-65 lg:w-81">
+    </div>
+
+  </div>
+  <div style="background-image: url('images/pink.jpeg');background-position:center; background-size: 150%; background-repeat: no-repeat;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h3 class="display-5">Grapefruit</h3>
+      <p class="lead3">If tart and tangy is your thing.</p>
+    </div>
+    <div class="mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="background-image: url('images/hat.jpg'); background-position:center; background-size: contain; background-repeat: no-repeat;">
+    <div class="my-3 p-3">
+      <h3 class="display-5">Merch</h3>
+      <p class="lead3">Join Onda Beach Club.</p>
+    </div>
+  </div>
+  <div style="background-image: url('images/Onda.jpg');background-position:center; background-size: 150%; background-repeat: no-repeat;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">The Facts</h2>
+      <p class="lead2">100 Calories. Premium Tequila. Real Legit Juice.</p>
+      <p class="lead2">5% ABV. 0 Sugar. 0 Carbs. Gluten Free. Made with blanco tequila, real lime and grapefruit juice. All natural ingredients.</p>
+    </div>
+    <div class="mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+  </div>
+</div>
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img src="images/green.png" alt="Onda Logo" width="40" height="40">
+      <small class="d-block mb-3">&copy; Shaina Shultz 2020</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-dark" href="#">In The News</a></li>
+        <li><a class="text-dark" href="#">Instagram</a></li>
+        <li><a class="text-dark" href="#">Women-Owned Distillery</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-dark" href="#">Billing</a></li>
+        <li><a class="text-dark" href="#">Delivery</a></li>
+        <li><a class="text-dark" href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-dark" href="#">Team</a></li>
+        <li><a class="text-dark" href="#">Locations</a></li>
+        <li><a class="text-dark" href="#">Privacy</a></li>
+        <li><a class="text-dark" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 	</body>
 

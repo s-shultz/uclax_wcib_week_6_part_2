@@ -1,0 +1,142 @@
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;}
+      }
+
+.container {
+  max-width: 960px;
+}
+
+.py-5 {
+  background-color: #FF3F12;
+}
+
+/** Font */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #6CF8B3;
+}
+.display-4 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #F5BCFF;
+  font-size: 70px;
+  text-shadow: 2px 2px #730101;
+}
+
+
+.lead1 {
+  color: #FFFFFF;
+  text-shadow: 2px 2px #730101;
+}
+
+.lead2 {
+  color: #F74A21;
+  background-color: rgba(255,153,236,0.8);
+}
+
+.lead3 {
+  color: #F5BCFF;
+  text-shadow: 0.3px 0.3px #730101;
+  background-color: rgba(247,74,33,0.9);
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F74A21;
+  background-color: rgba(255,153,236,0.8);
+  font-size: 30px;
+  text-shadow: 1px 1px #E1221F;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #F5BCFF;
+  background-color: rgba(247,74,33,0.9);
+  text-shadow: 1px 1px #730101;
+  font-size: 30px
+}
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(255,63,18, .98);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #6CF8B3;;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*
+ * Footer
+ */
+.col-6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6CF8B3;
+}
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.btn {
+  color: #6CF8B3;
+  border-color: #6CF8B3;
+  background: none;
+}
+
+.btn:hover {
+  color: #F5BCFF;
+  border-color: #F5BCFF;
+  background-color: #730101;
+}
+
+.modal-dialog {
+  color: #6CF8B3;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #FF3F12;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #F5BCFF;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #F5BCFF;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
