@@ -14,3 +14,13 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.classList.add("w3-light-grey");
 }
+
+const document.getElementById("myButton")
+
+button.addEventListener( 'click', function() {
+  document.location.href = "https://drinkonda.com/collections/sparkling-tequila";
+});
+
+myButton.onclick = function() {
+  window.location.replace("https://drinkonda.com/collections/sparkling-tequila");
+}
